@@ -1,0 +1,33 @@
+name: Compress Images
+
+on:
+  pull_request:
+    paths:
+      - '**/*.svg'
+      - '**/*.png'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.gif'
+      - '**/*.webp'
+      - '**/*.avif'
+
+jobs:
+  build:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    name: cadamsdev/image-optimizer-action
+    permissions: write-all
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Compress Images
+        id: compress-images
+        uses: cadamsdev/image-optimizer-action@v1.1.1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
