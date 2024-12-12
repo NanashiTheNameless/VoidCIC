@@ -1,0 +1,5 @@
+.lck
+*.lck
+**.lck
+**/production/backups/*.zip
+**/VoidCIC-backups/*.zip

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name NullCIC)(type Legacy)(uri ${KIPRJMOD}/NullCIC.lib)(options "")(descr ""))
-)
