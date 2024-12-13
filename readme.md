@@ -2,7 +2,7 @@
 
 ## VoidCIC is a fork of the original [NullCIC](<https://github.com/Redherring32/NullCIC/>)
 
-A little board to replace the CIC on the original NES or [OpenTendo](<https://github.com/Redherring32/OpenTendo>), and restore reset functionality.
+A little board to replace the CIC on the Original NES or [OpenTendo](<https://github.com/Redherring32/OpenTendo>), and restore reset functionality.
 
 All the files needed to make your own are located in the [Production folder](<production>).
 
