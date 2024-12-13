@@ -1054,16 +1054,10 @@
 		(uuid "350ff91d-c532-4e90-9903-5c798ad795b0")
 	)
 	(junction
-		(at 143.51 125.73)
+		(at 147.32 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b071ca33-3f6c-4dc6-9f7a-2b438d305e82")
-	)
-	(junction
-		(at 152.4 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f74ba5eb-eca4-4322-a42b-c0863cf25ebc")
+		(uuid "8b8c9e96-2f4d-4119-ac61-dc5a158efb44")
 	)
 	(no_connect
 		(at 154.94 100.33)
@@ -1129,6 +1123,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac6a05d-9a08-4d21-bdfc-195865877547")
+	)
+	(wire
+		(pts
 			(xy 153.67 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -1149,13 +1153,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 113.03) (xy 139.7 113.03)
+			(xy 158.75 125.73) (xy 147.32 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f6572b0-5fbd-48d4-a5f6-b7d63885ef3e")
+		(uuid "4d3c1b54-312e-49bf-9ee0-1cd7331239b8")
 	)
 	(wire
 		(pts
@@ -1166,16 +1170,6 @@
 			(type default)
 		)
 		(uuid "678df062-168a-4438-a75e-81456d15a793")
-	)
-	(wire
-		(pts
-			(xy 152.4 116.84) (xy 152.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2e62e9-abb9-49dc-a464-20519614bd27")
 	)
 	(wire
 		(pts
@@ -1199,16 +1193,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 113.03) (xy 152.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "995d20fd-f6e8-48c4-a362-73ff492a46b1")
-	)
-	(wire
-		(pts
 			(xy 179.07 115.57) (xy 177.8 115.57)
 		)
 		(stroke
@@ -1219,33 +1203,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 139.7 125.73)
+			(xy 147.32 125.73) (xy 147.32 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1b5fc0e-7583-4eb2-8235-3d6e69486d47")
-	)
-	(wire
-		(pts
-			(xy 143.51 125.73) (xy 158.75 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cda46b-0a7d-49c8-bec0-d8efa148e364")
-	)
-	(wire
-		(pts
-			(xy 139.7 125.73) (xy 143.51 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75c16a8-dcd9-42dd-92c8-89a67a257df3")
+		(uuid "b771a1ec-40c1-4e60-8a54-6df2bbdb7025")
 	)
 	(wire
 		(pts
@@ -1277,16 +1241,6 @@
 		)
 		(uuid "ee293109-357c-4c6d-bcdb-be7c8114eb4c")
 	)
-	(wire
-		(pts
-			(xy 152.4 113.03) (xy 154.94 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f116f39c-3b7a-442f-8ce8-f7e745d1bddc")
-	)
 	(global_label "RST OUT"
 		(shape input)
 		(at 168.91 120.65 180)
@@ -1311,7 +1265,7 @@
 	)
 	(global_label "RST IN"
 		(shape input)
-		(at 152.4 116.84 180)
+		(at 147.32 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1321,7 +1275,7 @@
 		)
 		(uuid "979c9036-01f6-4135-b422-9ae9a5f5a39e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0648 116.84 0)
+			(at 137.9848 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1649,71 +1603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69303daa-7597-4e0e-99c9-5a3f97c6ca54")
-		(property "Reference" "#PWR01"
-			(at 143.51 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 129.286 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6790ab89-42c5-4196-8a0b-f88f8eadf1b5")
-		)
-		(instances
-			(project "VoidCIC"
-				(path "/e30ec1df-887f-49c0-a4ba-58052365d942"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 166.37 129.54 0)
 		(mirror y)
@@ -2002,8 +1891,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c49d6147-445b-477c-8c6c-676141098501")
+		(property "Reference" "#PWR01"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efea5577-f2be-4a00-9d9b-0b7159ad909b")
+		)
+		(instances
+			(project "VoidCIC"
+				(path "/e30ec1df-887f-49c0-a4ba-58052365d942"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:1206W4F1002T5E")
-		(at 146.05 113.03 0)
+		(at 142.24 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2011,7 +1965,7 @@
 		(dnp no)
 		(uuid "f4d59749-9070-44d8-b0e7-1ebcc668504a")
 		(property "Reference" "R1"
-			(at 146.05 107.696 0)
+			(at 142.24 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +1973,7 @@
 			)
 		)
 		(property "Value" "1206W4F1002T5E"
-			(at 146.05 110.236 0)
+			(at 142.24 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +1981,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R1206"
-			(at 146.05 120.65 0)
+			(at 142.24 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +1990,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17902.html"
-			(at 146.05 123.19 0)
+			(at 142.24 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +1999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 113.03 0)
+			(at 142.24 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2054,7 +2008,7 @@
 			)
 		)
 		(property "LCSC Part" "C17902"
-			(at 146.05 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
