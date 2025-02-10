@@ -18,6 +18,6 @@ You can also do the same thing that NullCIC/VoidCIC does manually, just check ["
 
 Original by [Redherring32](<https://github.com/Redherring32>), they did most (if not all) if the theoretical design and hard work!
 
-VoidCIC is a fork of by [NullCIC](<https://github.com/Redherring32/NullCIC/>). VoidCIC is made and maintaned by [NanashiTheNameless/NamelessNanashi](<https://NamelessNanashi.dev/>).
+VoidCIC is a fork of by [NullCIC](<https://github.com/Redherring32/NullCIC/>). VoidCIC is made and maintaned by [NanashiTheNameless/NamelessNanashi](<https://gh.NamelessNanashi.dev/>).
 
 All of the [git contributors](<https://github.com/NanashiTheNameless/VoidCIC/graphs/contributors>).
