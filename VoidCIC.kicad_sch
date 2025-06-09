@@ -1419,7 +1419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJA474K035RNJ_470nF-474-10-35V_C11368.html"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -1428,7 +1428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJA474K035RNJ_470nF-474-10-35V_C11368.html"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -1466,7 +1466,7 @@
 		(at 151.13 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -1505,7 +1505,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Common IC, DIP-16 Package"
+		(property "Description" "NON-POPULATE, Used to conrol spacing for Headers, Needs 2X headers"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C6332201"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -1740,7 +1749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1GU04DBVR_SN74LVC1GU04DBVR_C81934.html"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1gu04"
 			(at 166.37 121.92 0)
 			(effects
 				(font
@@ -1749,7 +1758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://lcsc.com/product-detail/74-Series_TI_SN74LVC1GU04DBVR_SN74LVC1GU04DBVR_C81934.html"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -2023,7 +2032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17902.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-1206W4F1002T5E_C17902.pdf"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -2032,7 +2041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17902.html"
 			(at 134.62 100.33 0)
 			(effects
 				(font
