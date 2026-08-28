@@ -8,7 +8,7 @@ All the files needed to make your own are located in the [Production folder](<pr
 
 It is also for sale on my [Tindie](<https://www.tindie.com/products/37068/>) for those who dont wanna make it themselves, or those who want to support me!
 
-[![I sell on Tindie](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png)](https://www.tindie.com/stores/namelessnanashi/?ref=offsite_badges&utm_source=sellers_NamelessNanashi&utm_medium=badges&utm_campaign=badge_large)
+[![I sell on Tindie](https://static.tindie.com/badges/tindie-larges.png)](https://www.tindie.com/stores/namelessnanashi/?ref=offsite_badges&utm_source=sellers_NamelessNanashi&utm_medium=badges&utm_campaign=badge_large)
 
 You can also do the same thing that NullCIC/VoidCIC does manually, just check ["Reset fix without NullCIC(VoidCIC).jpg"](<Reset fix without NullCIC(VoidCIC).jpg>) for instructions!
 
